@@ -1,0 +1,12 @@
+Maske:
+Ein Bild, in dem Pixel mit einem Wert von 0 als Hintergrund und Pixel mit einem Wert von 255 als Vordergrund gelten.
+Die Funktion sucht nach Konturen im Vordergrund dieses Bildes.
+
+cv.RETR_EXTERNAL:
+Hier wird der Modus angegeben, in dem die Konturen abgerufen werden.
+Der Wert cv.RETR_EXTERNAL ruft nur die äußersten Konturen der Objekte im Bild ab.
+
+cv.CHAIN_APPROX_SIMPLE:
+Gibt die Methode an, die zur Annäherung der Konturen verwendet wird.
+Der Wert cv.CHAIN_APPROX_SIMPLE komprimiert horizontale, diagonale und vertikale Segmente und belässt nur deren Endpunkte.
+Die Funktion gibt eine Liste von Konturen und (Hierarchie von Konturen)
